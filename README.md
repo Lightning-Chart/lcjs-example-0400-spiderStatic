@@ -1,4 +1,4 @@
-# Spider static
+# Spider Static
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 
@@ -14,7 +14,8 @@ The demo can be used as an example or a seed project. Local execution requires t
 
 - The application is available at *http://localhost:8080* in your browser, webpack-dev-server provides hot reload functionality.
 
-### Description 
+
+## Description
 
 *Also known as Radar Chart, Web Chart, Polar Chart, Star Series*
 
@@ -52,18 +53,19 @@ spiderSeries.addPoints(
 
 Adding points with unique tags will automatically create new categorical axes for the Spider Chart in the order of adding (the first axis will always point directly up and following ones will traverse clock-wise). Adding more points to the same category tag in one series will override any previous values.
 
-### API links
 
-* Color palettes: [ColorPalettes][]
-* Solid FillStyle: [SolidFill][]
-* Empty LineStyle: [emptyLine][]
-* Spider chart: [SpiderChart][]
-* Spider series: [SpiderSeries][]
-* LegendBox: [LegendBox][]
-* UI origin positions: [UIOrigins][]
+## API Links
+
+* Color palettes: [ColorPalettes]
+* Solid FillStyle: [SolidFill]
+* Empty LineStyle: [emptyLine]
+* Spider chart: [SpiderChart]
+* Spider series: [SpiderSeries]
+* LegendBox: [LegendBox]
+* UI origin positions: [UIOrigins]
 
 
-### Support
+## Support
 
 If you notice an error in the example code, please open an issue on [GitHub][0] repository of the entire example.
 
@@ -75,18 +77,20 @@ If you think you found a bug in the LightningChart JavaScript library, please co
 
 Direct developer email support can be purchased through a [Support Plan][4] or by contacting sales@arction.com.
 
-© Arction Ltd 2009-2019. All rights reserved.
-
 [0]: https://github.com/Arction/
 [1]: https://www.arction.com/lightningchart-js-api-documentation/
 [2]: https://www.arction.com
 [3]: https://stackoverflow.com/questions/tagged/lightningchart
 [4]: https://www.arction.com/support-services/
 
-[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#colorpalettes
-[emptyLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#emptyline
-[LegendBox]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/chartxy.html#addlegendbox
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidfill.html
-[SpiderChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/spiderchart.html
-[SpiderSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/spiderseries.html
-[UIOrigins]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#uiorigins
+© Arction Ltd 2009-2019. All rights reserved.
+
+
+[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#colorpalettes
+[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/solidfill.html
+[emptyLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#emptyline
+[SpiderChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/spiderchart.html
+[SpiderSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/spiderseries.html
+[LegendBox]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/chartxy.html#addlegendbox
+[UIOrigins]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#uiorigins
+

@@ -1,4 +1,4 @@
-/**
+/*
  * LightningChartJS example that showcases a simple SpiderChart.
  */
 // Import LightningChartJS
