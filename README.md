@@ -42,7 +42,7 @@ const spiderSeries = spiderChart.addSeries(PointShape.Circle)
     // etc ...
 ```
 
-Actual data is added with the format: { axis: string, value: number }, where 'axis' refers to the name of a category.
+Actual data is added with the format: `{ axis: string, value: number }`, where 'axis' refers to the name of a category.
 
 ```javascript
 spiderSeries.addPoints(
