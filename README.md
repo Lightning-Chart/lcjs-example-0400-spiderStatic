@@ -88,11 +88,11 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#colorpalettes
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/solidfill.html
-[emptyLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#emptyline
-[SpiderChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/spiderchart.html
-[SpiderSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/spiderseries.html
-[LegendBox]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/chartxy.html#addlegendbox
-[UIOrigins]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#uiorigins
+[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#colorpalettes
+[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidfill.html
+[emptyLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#emptyline
+[SpiderChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/spiderchart.html
+[SpiderSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/spiderseries.html
+[LegendBox]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/chartxy.html#addlegendbox
+[UIOrigins]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#uiorigins
 
