@@ -58,13 +58,13 @@ Adding points with unique tags will automatically create new categorical axes fo
 
 ## API Links
 
-* Color palettes: [ColorPalettes]
-* Solid FillStyle: [SolidFill]
-* Empty LineStyle: [emptyLine]
-* Spider chart: [SpiderChart]
-* Spider series: [SpiderSeries]
-* LegendBox: [LegendBox]
-* UI origin positions: [UIOrigins]
+* [Color palettes]
+* [Solid FillStyle]
+* [Empty LineStyle]
+* [Spider chart]
+* [Spider series]
+* [LegendBox]
+* [UI origin positions]
 
 
 ## Support
@@ -88,11 +88,11 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[ColorPalettes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#colorpalettes
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidfill.html
-[emptyLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#emptyline
-[SpiderChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/spiderchart.html
-[SpiderSeries]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/spiderseries.html
-[LegendBox]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/chartxy.html#addlegendbox
-[UIOrigins]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#uiorigins
+[Color palettes]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#colorpalettes
+[Solid FillStyle]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/solidfill.html
+[Empty LineStyle]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#emptyline
+[Spider chart]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/spiderchart.html
+[Spider series]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/spiderseries.html
+[LegendBox]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/chartxy.html#addlegendbox
+[UI origin positions]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#uiorigins
 

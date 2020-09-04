@@ -11,11 +11,14 @@ const {
     ColorPalettes,
     SolidFill,
     emptyLine,
-    UIOrigins
+    UIOrigins,
+    Themes
 } = lcjs
 
 // Create spider chart and Three series.
-const chart = lightningChart().Spider()
+const chart = lightningChart().Spider({
+    // theme: Themes.dark 
+})
     .setTitle('Company branch efficiency')
     .setAxisInterval(100)
     .setScaleLabelStrategy(undefined)
