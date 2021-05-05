@@ -42,7 +42,7 @@ series.forEach((value, i) => {
         .setPointFillStyle(solid)
         .setPointSize(10)
         .setFillStyle(opaque)
-        .setResultTableFormatter((builder, series, value, axis) =>
+        .setCursorResultTableFormatter((builder, series, value, axis) =>
             builder.addRow(`${series.getName()} ${axis}`)
         )
 })
@@ -76,9 +76,6 @@ series[2].addPoints(
 
 // Create LegendBox as part of SpiderChart.
 const legend = chart.addLegendBox(LegendBoxBuilders.HorizontalLegendBox)
-    .setPosition({ x: 0, y: 0 })
-    .setOrigin(UIOrigins.LeftBottom)
-    .setMargin({ top: 5, right: 5, bottom: 5, left: 5 })
 // Add SpiderChart to LegendBox
 legend.add(chart)
 
