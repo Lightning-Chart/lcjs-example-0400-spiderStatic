@@ -1,6 +1,6 @@
-# Spider Static
+# JavaScript Static Spider Chart
 
-![Spider Static](spiderStatic.png)
+![JavaScript Static Spider Chart](spiderStatic.png)
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 
