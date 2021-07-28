@@ -8,16 +8,12 @@ const lcjs = require('@arction/lcjs')
 const {
     lightningChart,
     LegendBoxBuilders,
-    ColorPalettes,
-    SolidFill,
-    emptyLine,
-    UIOrigins,
     Themes
 } = lcjs
 
 // Create spider chart and Three series.
 const chart = lightningChart().Spider({
-    // theme: Themes.dark 
+    // theme: Themes.darkGold 
 })
     .setTitle('Company branch efficiency')
     .setAxisInterval(100)
@@ -32,16 +28,9 @@ const series = [
     chart.addSeries()
         .setName('New York')
 ]
-const palette = ColorPalettes.fullSpectrum(series.length)
 series.forEach((value, i) => {
-    const color = palette(i)
-    const solid = new SolidFill({ color })
-    const opaque = solid.setA(140)
     value
-        .setStrokeStyle(emptyLine)
-        .setPointFillStyle(solid)
         .setPointSize(10)
-        .setFillStyle(opaque)
         .setCursorResultTableFormatter((builder, series, value, axis) =>
             builder.addRow(`${series.getName()} ${axis}`)
         )
@@ -76,6 +65,11 @@ series[2].addPoints(
 
 // Create LegendBox as part of SpiderChart.
 const legend = chart.addLegendBox(LegendBoxBuilders.HorizontalLegendBox)
+    // Dispose example UI elements automatically if they take too much space. This is to avoid bad UI on mobile / etc. devices.
+    .setAutoDispose({
+        type: 'max-width',
+        maxWidth: 0.80,
+    })
 // Add SpiderChart to LegendBox
 legend.add(chart)
 
