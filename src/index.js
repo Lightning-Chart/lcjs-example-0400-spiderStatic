@@ -10,7 +10,7 @@ const { lightningChart, LegendBoxBuilders, Themes } = lcjs
 // Create spider chart and Three series.
 const chart = lightningChart()
     .Spider({
-        // theme: Themes.darkGold
+        theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
     })
     .setTitle('Company branch efficiency')
     .setAxisInterval(100)
