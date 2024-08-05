@@ -2,7 +2,7 @@
  * LightningChartJS example that showcases a simple SpiderChart.
  */
 // Import LightningChartJS
-const lcjs = require('@arction/lcjs')
+const lcjs = require('@lightningchart/lcjs')
 
 // Extract required parts from LightningChartJS.
 const { lightningChart, LegendBoxBuilders, Themes } = lcjs
@@ -21,7 +21,7 @@ const chart = lightningChart({
 
 const series = [chart.addSeries().setName('Sydney'), chart.addSeries().setName('Kuopio'), chart.addSeries().setName('New York')]
 series.forEach((value, i) => {
-    value.setPointSize(10).setCursorResultTableFormatter((builder, series, value, axis) => builder.addRow(`${series.getName()} ${axis}`))
+    value.setPointSize(10)
 })
 
 // Add constant points to series.
@@ -61,6 +61,3 @@ const legend = chart
     })
 // Add SpiderChart to LegendBox
 legend.add(chart)
-
-// Enable AutoCursor auto-fill.
-chart.setAutoCursor((cursor) => cursor.setResultTableAutoTextStyle(true))
