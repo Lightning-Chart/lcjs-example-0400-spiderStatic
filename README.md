@@ -89,11 +89,11 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[Color palettes]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/variables/ColorPalettes.html
-[Solid FillStyle]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/classes/SolidFill.html
-[Empty LineStyle]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/variables/emptyLine.html
-[Spider chart]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/classes/SpiderChart.html
-[Spider series]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/classes/SpiderSeries.html
-[LegendBox]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/classes/Chart.html#addLegendBox
-[UI origin positions]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/variables/UIOrigins.html
+[Color palettes]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/variables/ColorPalettes.html
+[Solid FillStyle]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/classes/SolidFill.html
+[Empty LineStyle]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/variables/emptyLine.html
+[Spider chart]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/classes/SpiderChart.html
+[Spider series]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/classes/SpiderSeries.html
+[LegendBox]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/classes/Chart.html#addLegendBox
+[UI origin positions]: https://lightningchart.com/js-charts/api-documentation/v7.0.1/variables/UIOrigins.html
 
