@@ -5,7 +5,7 @@
 const lcjs = require('@lightningchart/lcjs')
 
 // Extract required parts from LightningChartJS.
-const { lightningChart, LegendBoxBuilders, Themes } = lcjs
+const { lightningChart, Themes } = lcjs
 
 // Create spider chart and Three series.
 const chart = lightningChart({
@@ -50,14 +50,3 @@ series[2].addPoints(
     { axis: categories[3], value: 67 },
     { axis: categories[4], value: 71 },
 )
-
-// Create LegendBox as part of SpiderChart.
-const legend = chart
-    .addLegendBox(LegendBoxBuilders.HorizontalLegendBox)
-    // Dispose example UI elements automatically if they take too much space. This is to avoid bad UI on mobile / etc. devices.
-    .setAutoDispose({
-        type: 'max-width',
-        maxWidth: 0.8,
-    })
-// Add SpiderChart to LegendBox
-legend.add(chart)
