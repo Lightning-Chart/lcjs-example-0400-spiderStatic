@@ -15,9 +15,10 @@ const chart = lightningChart({
         theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
     })
     .setTitle('Company branch efficiency')
+    .setTitleMargin({ top: 60, bottom: 40 })
     .setAxisInterval(100)
     .setScaleLabelStrategy(undefined)
-    .setPadding({ top: 100 })
+    // .setPadding({ top: 100 })
 
 const series = [chart.addSeries().setName('Sydney'), chart.addSeries().setName('Kuopio'), chart.addSeries().setName('New York')]
 series.forEach((value, i) => {
